@@ -3,253 +3,395 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>上村凌 | Portfolio</title>
-  <meta name="description" content="上村凌の企業提出用ポートフォリオ。フロントエンド実装、WordPress運用、レスポンシブ対応、UI調整を中心に対応。">
+  <meta name="description" content="上村凌のWebエンジニアポートフォリオ。HTML/CSS/JavaScript/PHP/WordPressを中心に、Webサイト制作・改修・UI改善・QA・SEO・保守運用まで対応しています。">
+  <meta name="theme-color" content="#0f172a">
+  <title>上村凌 | Web Engineer Portfolio</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-<header class="header">
-  <div class="inner header_inner">
-    <a href="#" class="logo">RYO KAMIMURA</a>
-    <nav>
-      <ul class="nav">
-        <li><a href="#about">ABOUT</a></li>
-        <li><a href="#skills">SKILLS</a></li>
-        <li><a href="#works">WORKS</a></li>
-        <li><a href="#career">CAREER</a></li>
-        <li><a href="#contact">CONTACT</a></li>
-      </ul>
-    </nav>
-  </div>
-</header>
-
-<main>
-<section class="fv">
-  <div class="inner fv_inner">
-    <p class="eyebrow">Frontend / Web Engineer</p>
-    <h1>医療・企業サイトを中心に、<br>実務に強いフロントエンド実装を。</h1>
-    <p class="lead">
-      HTML / CSS / JavaScript / WordPress を中心に、<br>
-      レスポンシブ対応・UI調整・保守運用まで対応しています。
-    </p>
-    <div class="fv_tags">
-      <span>Responsive</span><span>WordPress</span><span>UI Implementation</span><span>Maintenance</span>
+  <header class="header">
+    <div class="inner header_inner">
+      <a href="#top" class="logo" aria-label="ページ上部へ戻る">RYO KAMIMURA</a>
+      <nav aria-label="メインナビゲーション">
+        <ul class="nav">
+          <li><a href="#about">ABOUT</a></li>
+          <li><a href="#skills">SKILLS</a></li>
+          <li><a href="#works">WORKS</a></li>
+          <li><a href="#process">PROCESS</a></li>
+          <li><a href="#career">CAREER</a></li>
+          <li><a href="#contact">CONTACT</a></li>
+        </ul>
+      </nav>
     </div>
-  </div>
-</section>
+  </header>
 
-<section id="about" class="section">
-  <div class="inner two_col">
-    <div>
-      <p class="section_label">ABOUT</p>
-      <h2 class="ttl">実装精度と運用目線を大切にしています。</h2>
-    </div>
-    <div>
-      <p class="text">
-        2021年よりWeb制作・システム開発領域に携わり、現在は医療機関サイト・企業サイトを中心に、
-        フロントエンド実装、WordPress運用、UI調整、保守対応を行っています。
-      </p>
-      <p class="text">
-        Figma等のデザインデータをもとにした高精度なコーディング、PC・タブレット・スマートフォンを考慮した
-        レスポンシブ実装、既存サイトの改修・表示改善を得意としています。
-      </p>
-    </div>
-  </div>
-</section>
-
-<section id="skills" class="section gray">
-  <div class="inner">
-    <p class="section_label">SKILLS</p>
-    <h2 class="ttl">対応可能なスキル</h2>
-
-    <div class="skill_grid">
-      <div class="card">
-        <h3>Frontend / Coding</h3>
-        <ul>
-          <li>HTML5 / CSS3 / SCSS</li>
-          <li>JavaScript / jQuery</li>
-          <li>レスポンシブ実装</li>
-          <li>Figmaデザインからのコーディング</li>
-          <li>UI調整 / 表示崩れ修正</li>
-          <li>Swiper.js等のUI実装</li>
-        </ul>
-      </div>
-
-      <div class="card">
-        <h3>CMS / Web System</h3>
-        <ul>
-          <li>WordPress / PHP / ACF</li>
-          <li>WordPress記事入稿・運用</li>
-          <li>NOREN / Movable Type / PowerCMS</li>
-          <li>Laravel / MySQL</li>
-          <li>Perl / PostgreSQL</li>
-          <li>既存システム改修・保守</li>
-        </ul>
-      </div>
-
-      <div class="card">
-        <h3>Low-code / Automation</h3>
-        <ul>
-          <li>OutSystems</li>
-          <li>イットビルダー</li>
-          <li>Playwrightによるスクレイピング</li>
-          <li>Pandasによるデータ加工</li>
-          <li>Pythonによるデータ取得・自動化</li>
-          <li>テスト仕様書作成 / 単体テスト</li>
-        </ul>
-      </div>
-
-      <div class="card">
-        <h3>Tools / Environment</h3>
-        <ul>
-          <li>Git / GitHub</li>
-          <li>VSCode / Chrome DevTools</li>
-          <li>Figma / Adobe XD</li>
-          <li>AWS / Oracle</li>
-          <li>Windows / オンプレミス環境</li>
-        </ul>
-      </div>
-
-      <div class="card">
-        <h3>Marketing / SEO</h3>
-        <ul>
-          <li>SEO効果検証</li>
-          <li>ブログタイトル立案</li>
-          <li>YouTubeタイトル・概要欄作成</li>
-          <li>Yahoo / Google / Criteo広告運用補佐</li>
-          <li>広告コスト着地予測</li>
-        </ul>
-      </div>
-
-      <div class="card">
-        <h3>Business</h3>
-        <ul>
-          <li>顧客要望に応じた改修対応</li>
-          <li>問い合わせ対応</li>
-          <li>基本設計作成</li>
-          <li>保守運用</li>
-          <li>営業経験を活かしたコミュニケーション</li>
-        </ul>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section id="works" class="section">
-  <div class="inner">
-    <p class="section_label">WORKS</p>
-    <h2 class="ttl">直近の制作実績</h2>
-    <p class="note">
-      公開済みサイトのうち、担当範囲を明確にしたうえで掲載しています。管理画面・内部情報・クライアントソースコードは掲載していません。
-    </p>
-
-    <div class="works_grid">
-      <article class="work_card">
-        <img src="assets/work-wisdom.png" alt="親知らずページの制作実績イメージ">
-        <div class="work_body">
-          <p class="work_type">Medical Site / Lower Page</p>
-          <h3>親知らずページ</h3>
-          <p>歯科医院サイトの下層ページ実装。デザイン再現、レスポンシブ調整、UI表示の最適化を担当。</p>
-          <dl>
-            <dt>担当範囲</dt>
-            <dd>フロントエンド実装 / レスポンシブ対応 / UI調整</dd>
-          </dl>
-          <a href="https://www.masuda-dc-moriguchi.com/medical/wisdom/" target="_blank" rel="noopener">サイトを見る</a>
+  <main id="top">
+    <section class="fv">
+      <div class="inner fv_inner">
+        <p class="eyebrow">Frontend / Web Engineer</p>
+        <h1>Web制作から運用・改善まで。<br>事業に伴走するWebエンジニア。</h1>
+        <p class="lead">
+          HTML / CSS / JavaScript / PHP / WordPressを中心に、<br class="pc_only">
+          実装・UI改善・CMS運用・QA・保守まで一貫して対応しています。
+        </p>
+        <div class="fv_tags" aria-label="主な対応領域">
+          <span>Frontend</span>
+          <span>WordPress</span>
+          <span>UI Improvement</span>
+          <span>QA</span>
+          <span>Maintenance</span>
         </div>
-      </article>
-
-      <article class="work_card">
-        <img src="assets/work-access.png" alt="アクセスページの制作実績イメージ">
-        <div class="work_body">
-          <p class="work_type">Medical Site / Access Page</p>
-          <h3>アクセスページ</h3>
-          <p>来院導線を意識したアクセスページの実装。地図・導線・画像配置をデバイスごとに調整。</p>
-          <dl>
-            <dt>担当範囲</dt>
-            <dd>ページ実装 / レスポンシブ対応 / 表示調整</dd>
-          </dl>
-          <a href="https://www.masuda-dc-moriguchi.com/access/" target="_blank" rel="noopener">サイトを見る</a>
+        <div class="hero_actions">
+          <a class="btn btn_primary" href="#works">実績を見る</a>
+          <a class="btn btn_secondary" href="#contact">相談する</a>
         </div>
-      </article>
-
-      <article class="work_card">
-        <img src="assets/work-whitening.png" alt="ホワイトニングページの制作実績イメージ">
-        <div class="work_body">
-          <p class="work_type">Medical Site / Aesthetic Page</p>
-          <h3>ホワイトニングページ</h3>
-          <p>審美歯科領域のページ実装。情報量の多いコンテンツを読みやすく整理し、レスポンシブ対応。</p>
-          <dl>
-            <dt>担当範囲</dt>
-            <dd>下層ページ実装 / UI調整 / SP表示最適化</dd>
-          </dl>
-          <a href="https://www.masuda-dc-moriguchi.com/aesthetic/whitening/" target="_blank" rel="noopener">サイトを見る</a>
+        <div class="availability" aria-label="稼働条件">
+          <span class="status_dot" aria-hidden="true"></span>
+          <p>業務委託 / フルリモート対応</p>
         </div>
-      </article>
+      </div>
+    </section>
 
-      <article class="work_card">
-        <img src="assets/work-pediatric.png" alt="小児歯科ページの制作実績イメージ">
-        <div class="work_body">
-          <p class="work_type">Medical Site / Pediatric Page</p>
-          <h3>小児歯科ページ</h3>
-          <p>小児歯科ページの実装。複数セクションの構成、画像・テキスト配置、SP表示調整を担当。</p>
-          <dl>
-            <dt>担当範囲</dt>
-            <dd>フロントエンド実装 / レスポンシブ対応 / UI調整</dd>
-          </dl>
-          <a href="https://www.masuda-dc-moriguchi.com/medical/pediatric/" target="_blank" rel="noopener">サイトを見る</a>
+    <section id="about" class="section">
+      <div class="inner two_col">
+        <div>
+          <p class="section_label">ABOUT</p>
+          <h2 class="ttl">実装だけでなく、<br>その先の運用まで考える。</h2>
         </div>
-      </article>
-    </div>
-  </div>
-</section>
-
-<section id="career" class="section gray">
-  <div class="inner">
-    <p class="section_label">CAREER</p>
-    <h2 class="ttl">職務経歴</h2>
-
-    <div class="timeline">
-      <div class="timeline_item">
-        <p class="period">2025.11 - 現在</p>
-        <h3>企業ホームページのコーディング・改修</h3>
-        <p>WordPress / PHP / HTML / CSS を用いた企業サイトのコーディング・改修作業を担当。</p>
+        <div>
+          <p class="text">
+            2021年よりWeb制作・システム開発に携わり、現在は企業サイト・医療機関サイトを中心に、フロントエンド実装、WordPress改修・運用、UI調整、保守対応などを行っています。
+          </p>
+          <p class="text">
+            Figma等のデザインデータをもとにしたコーディングに加え、既存サイトの改修、表示崩れの修正、CMS更新、SEO関連の改善、QAまで、公開後の運用を含めて継続的に対応してきました。
+          </p>
+          <p class="text">
+            「デザイン通りに作る」だけでなく、ユーザーにとって分かりやすいか、運用する側が扱いやすいか、既存機能への影響がないかまで確認しながら進めることを大切にしています。
+          </p>
+          <p class="text">
+            前職での営業経験も活かし、ディレクター・デザイナー・非エンジニアの方とも認識を合わせながら、目的に沿った実装・改善を進めます。
+          </p>
+        </div>
       </div>
+    </section>
 
-      <div class="timeline_item">
-        <p class="period">2023.11 - 現在</p>
-        <h3>Webサイト制作・CMS運用・スクレイピング業務</h3>
-        <p>FigmaデザインをもとにしたWebサイト制作、WordPress記事入稿、ローコード開発、Laravel/MySQL開発、PlaywrightとPandasを用いたデータ加工などを担当。</p>
+    <section class="section value_section">
+      <div class="inner">
+        <p class="section_label">STRENGTHS</p>
+        <h2 class="ttl">実務で活かせる3つの強み</h2>
+        <div class="strength_grid">
+          <article class="strength_card">
+            <p class="strength_num">01</p>
+            <h3>既存サイトを理解して改修</h3>
+            <p>新規制作だけでなく、既存Webサイト・既存システムの改修を経験。仕様や影響範囲を確認したうえで、安全に変更を加えます。</p>
+          </article>
+          <article class="strength_card">
+            <p class="strength_num">02</p>
+            <h3>公開後の運用まで対応</h3>
+            <p>WordPressや各種CMSの更新、UI調整、SEO対応、保守など、公開後にサイトを育てていく業務にも継続して対応できます。</p>
+          </article>
+          <article class="strength_card">
+            <p class="strength_num">03</p>
+            <h3>QAまで含めた実装</h3>
+            <p>レスポンシブ、ブラウザ表示、既存機能への影響などを確認し、実装して終わりではなく品質まで意識して納品します。</p>
+          </article>
+        </div>
       </div>
+    </section>
 
-      <div class="timeline_item">
-        <p class="period">2021.09 - 2025.03</p>
-        <h3>システム保守・改修 / ローコード開発</h3>
-        <p>NOREN、イットビルダー、OutSystems、PHP、Laravel、MySQL、Perl等を使用し、既存システム改修・フォームリプレイス・テスト設計・単体テストを担当。</p>
+    <section id="skills" class="section gray">
+      <div class="inner">
+        <p class="section_label">SKILLS</p>
+        <h2 class="ttl">対応可能な領域</h2>
+        <p class="section_intro">制作・改修・運用を横断して、Webサイトを継続的に支えられる構成を意識しています。</p>
+
+        <div class="skill_grid">
+          <article class="card">
+            <p class="card_kicker">CORE</p>
+            <h3>Frontend</h3>
+            <ul>
+              <li>HTML5 / CSS3 / SCSS</li>
+              <li>JavaScript / jQuery</li>
+              <li>レスポンシブ実装</li>
+              <li>Figma / Adobe XDからの実装</li>
+              <li>UI調整 / 表示崩れ修正</li>
+              <li>Swiper等のUI実装</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <p class="card_kicker">CMS</p>
+            <h3>WordPress / Web System</h3>
+            <ul>
+              <li>WordPress / PHP / ACF</li>
+              <li>既存テーマ・ページ改修</li>
+              <li>記事入稿 / CMS運用</li>
+              <li>Laravel / MySQL</li>
+              <li>NOREN / Movable Type / PowerCMS</li>
+              <li>既存システムの保守・改修</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <p class="card_kicker">QUALITY</p>
+            <h3>QA / Testing</h3>
+            <ul>
+              <li>テスト仕様書作成</li>
+              <li>単体テスト</li>
+              <li>レスポンシブ確認</li>
+              <li>ブラウザ表示確認</li>
+              <li>UI / 表示崩れ確認</li>
+              <li>既存機能への影響確認</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <p class="card_kicker">AUTOMATION</p>
+            <h3>Python / Data</h3>
+            <ul>
+              <li>Python</li>
+              <li>Playwright</li>
+              <li>Pandas</li>
+              <li>Webデータ取得</li>
+              <li>スクレイピング</li>
+              <li>定型作業の自動化</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <p class="card_kicker">OPERATION</p>
+            <h3>SEO / Web Operation</h3>
+            <ul>
+              <li>SEO効果検証</li>
+              <li>コンテンツ更新・改善</li>
+              <li>ブログタイトル立案</li>
+              <li>アクセスデータを用いた改善</li>
+              <li>Web広告運用補佐</li>
+              <li>継続的なサイト保守</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <p class="card_kicker">TOOLS</p>
+            <h3>Development Tools</h3>
+            <ul>
+              <li>Git / GitHub</li>
+              <li>Docker</li>
+              <li>VS Code / Chrome DevTools</li>
+              <li>Figma / Adobe XD</li>
+              <li>Claude Code</li>
+              <li>STUDIO</li>
+            </ul>
+          </article>
+        </div>
       </div>
+    </section>
 
-      <div class="timeline_item">
-        <p class="period">2020.09 - 2021.08</p>
-        <h3>マーケティング補佐・社内開発</h3>
-        <p>広告運用補佐、SEO効果検証、ブログタイトル立案、PythonによるGoogleアナリティクスデータ自動取得・転記ツール開発を担当。</p>
+    <section id="works" class="section">
+      <div class="inner">
+        <p class="section_label">WORKS</p>
+        <h2 class="ttl">制作・開発実績</h2>
+        <p class="note">
+          公開可能な案件のみ、担当範囲を明確にしたうえで掲載しています。管理画面・内部情報・クライアントソースコードなどの機密情報は掲載していません。
+        </p>
+
+        <div class="works_grid">
+          <article class="work_card">
+            <img src="assets/work-wisdom.png" alt="親知らずページの制作実績イメージ" loading="lazy">
+            <div class="work_body">
+              <p class="work_type">Medical Website / Frontend</p>
+              <h3>親知らずページ</h3>
+              <p>情報量のある診療内容を、PC・スマートフォンのどちらでも読み進めやすいページとして実装しました。</p>
+              <dl>
+                <div>
+                  <dt>担当</dt>
+                  <dd>HTML / CSS / レスポンシブ / UI調整 / 表示確認</dd>
+                </div>
+                <div>
+                  <dt>工夫</dt>
+                  <dd>画面幅によるレイアウト崩れや、テキストと画像のバランスを確認しながら調整。</dd>
+                </div>
+              </dl>
+              <a href="https://www.masuda-dc-moriguchi.com/medical/wisdom/" target="_blank" rel="noopener noreferrer">サイトを見る <span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+
+          <article class="work_card">
+            <img src="assets/work-access.png" alt="アクセスページの制作実績イメージ" loading="lazy">
+            <div class="work_body">
+              <p class="work_type">Medical Website / Frontend</p>
+              <h3>アクセスページ</h3>
+              <p>ユーザーが医院までのアクセス情報を迷わず確認できることを意識して実装しました。</p>
+              <dl>
+                <div>
+                  <dt>担当</dt>
+                  <dd>ページ実装 / レスポンシブ / 地図・画像・テキスト配置調整</dd>
+                </div>
+                <div>
+                  <dt>工夫</dt>
+                  <dd>PC・スマートフォンそれぞれで、必要な情報を追いやすいレイアウトへ調整。</dd>
+                </div>
+              </dl>
+              <a href="https://www.masuda-dc-moriguchi.com/access/" target="_blank" rel="noopener noreferrer">サイトを見る <span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+
+          <article class="work_card">
+            <img src="assets/work-whitening.png" alt="ホワイトニングページの制作実績イメージ" loading="lazy">
+            <div class="work_body">
+              <p class="work_type">Medical Website / Frontend</p>
+              <h3>ホワイトニングページ</h3>
+              <p>情報量の多い審美歯科コンテンツを、ユーザーが順番に読み進めやすいページとして実装しました。</p>
+              <dl>
+                <div>
+                  <dt>担当</dt>
+                  <dd>下層ページ実装 / レスポンシブ / UI調整 / SP表示最適化</dd>
+                </div>
+                <div>
+                  <dt>工夫</dt>
+                  <dd>文章量・画像・セクションのバランスを確認し、スマートフォンでの可読性を調整。</dd>
+                </div>
+              </dl>
+              <a href="https://www.masuda-dc-moriguchi.com/aesthetic/whitening/" target="_blank" rel="noopener noreferrer">サイトを見る <span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+
+          <article class="work_card">
+            <img src="assets/work-pediatric.png" alt="小児歯科ページの制作実績イメージ" loading="lazy">
+            <div class="work_body">
+              <p class="work_type">Medical Website / Frontend</p>
+              <h3>小児歯科ページ</h3>
+              <p>複数のコンテンツを整理しながら、診療内容を分かりやすく伝えられるページとして実装しました。</p>
+              <dl>
+                <div>
+                  <dt>担当</dt>
+                  <dd>フロントエンド実装 / レスポンシブ / セクション構築 / UI調整</dd>
+                </div>
+                <div>
+                  <dt>工夫</dt>
+                  <dd>画面サイズによって画像やテキスト配置が崩れないよう、細かな表示調整を実施。</dd>
+                </div>
+              </dl>
+              <a href="https://www.masuda-dc-moriguchi.com/medical/pediatric/" target="_blank" rel="noopener noreferrer">サイトを見る <span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+        </div>
+
+        <div class="private_works">
+          <div class="subsection_heading">
+            <p class="section_label">PRIVATE / BUSINESS PROJECTS</p>
+            <h3>非公開案件での実務経験</h3>
+            <p>守秘義務のある案件は、公開可能な担当領域のみ記載しています。</p>
+          </div>
+
+          <div class="private_grid">
+            <article class="private_card">
+              <p class="work_type">Corporate Website / Maintenance</p>
+              <h3>企業Webサイト 改修・運用</h3>
+              <p>WordPress / PHP / HTML / CSSを用いた企業Webサイトの継続的な改修・更新・運用を担当。</p>
+              <div class="tech_tags"><span>WordPress</span><span>PHP</span><span>HTML/CSS</span><span>Maintenance</span></div>
+            </article>
+
+            <article class="private_card">
+              <p class="work_type">CMS / Frontend</p>
+              <h3>Webサイト制作・CMS運用</h3>
+              <p>Figmaデザインからの実装、WordPress記事入稿、CMS運用、既存サイトの改修などを担当。</p>
+              <div class="tech_tags"><span>Figma</span><span>WordPress</span><span>CMS</span><span>Frontend</span></div>
+            </article>
+
+            <article class="private_card">
+              <p class="work_type">Automation / Data</p>
+              <h3>Webデータ取得・業務自動化</h3>
+              <p>PlaywrightによるWebデータ取得とPandasによるデータ加工を行い、定型業務の効率化に取り組みました。</p>
+              <div class="tech_tags"><span>Python</span><span>Playwright</span><span>Pandas</span><span>Automation</span></div>
+            </article>
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
-</section>
+    </section>
 
-<section id="contact" class="section contact">
-  <div class="inner">
-    <p class="section_label">CONTACT</p>
-    <h2 class="ttl">お問い合わせ</h2>
-    <p class="text">制作・改修・保守運用など、お気軽にご連絡ください。</p>
-    <a class="mail_btn" href="mailto:katmsg8239@gmail.com">katmsg8239@gmail.com</a>
-  </div>
-</section>
-</main>
+    <section id="process" class="section process_section gray">
+      <div class="inner">
+        <p class="section_label">PROCESS</p>
+        <h2 class="ttl">仕事の進め方</h2>
+        <p class="section_intro">依頼内容をそのまま実装するだけでなく、目的・影響範囲・公開後の運用まで意識して進めます。</p>
 
-<footer class="footer">
-  <p>© 2026 RYO KAMIMURA</p>
-</footer>
+        <div class="process_grid">
+          <article class="process_card">
+            <span>01</span>
+            <h3>要件・目的を確認</h3>
+            <p>ページの目的、ユーザー、既存サイトへの影響、優先順位を確認します。</p>
+          </article>
+          <article class="process_card">
+            <span>02</span>
+            <h3>実装</h3>
+            <p>デザインと既存仕様を確認しながら、保守性とレスポンシブ表示を意識して実装します。</p>
+          </article>
+          <article class="process_card">
+            <span>03</span>
+            <h3>QA・表示確認</h3>
+            <p>複数の画面幅やブラウザで確認し、表示崩れや既存機能への影響をチェックします。</p>
+          </article>
+          <article class="process_card">
+            <span>04</span>
+            <h3>改善・運用</h3>
+            <p>フィードバックを反映し、必要に応じて公開後の更新・改修・保守にも継続対応します。</p>
+          </article>
+        </div>
+      </div>
+    </section>
 
+    <section id="career" class="section">
+      <div class="inner">
+        <p class="section_label">CAREER</p>
+        <h2 class="ttl">職務経歴</h2>
+        <div class="timeline">
+          <article class="timeline_item">
+            <p class="period">2025.11 - Present</p>
+            <h3>企業Webサイトの改修・運用</h3>
+            <p>WordPress / PHP / HTML / CSSを用いた企業サイトのコーディング、改修、SEO関連の更新、保守運用を担当。既存仕様への影響を確認しながら継続的な改善に携わっています。</p>
+          </article>
+          <article class="timeline_item">
+            <p class="period">2023.11 - Present</p>
+            <h3>Web制作・CMS運用・自動化</h3>
+            <p>FigmaデザインをもとにしたWebサイト制作、WordPress運用、CMS更新、Laravel / MySQL開発、Playwright / Pandasを用いたデータ取得・加工などを担当。</p>
+          </article>
+          <article class="timeline_item">
+            <p class="period">2021.09 - 2025.03</p>
+            <h3>システム保守・改修 / ローコード開発</h3>
+            <p>NOREN、イットビルダー、OutSystems、PHP、Laravel、MySQL、Perl等を使用し、既存システム改修、フォームリプレイス、基本設計、テスト仕様書作成・単体テストを担当。</p>
+          </article>
+          <article class="timeline_item">
+            <p class="period">2020.09 - 2021.08</p>
+            <h3>マーケティング補佐・社内開発</h3>
+            <p>Web広告運用補佐、SEO効果検証、コンテンツ企画に加え、Pythonによるアクセスデータ取得・転記ツールの開発を担当。技術だけでなくWebサイトの目的や成果を意識する土台を築きました。</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="inner contact_inner">
+        <p class="section_label">CONTACT</p>
+        <h2 class="ttl">Web制作・改修・運用について<br>お気軽にご相談ください。</h2>
+        <p class="text contact_text">
+          WordPressサイトの改修、HTML / CSS / JavaScriptコーディング、UI・レスポンシブ調整、CMS運用、QA、保守・改善などに対応しています。
+        </p>
+        <div class="contact_tags">
+          <span>業務委託</span>
+          <span>フルリモート</span>
+          <span>継続運用</span>
+        </div>
+        <div class="contact_actions">
+          <a class="mail_btn" href="mailto:katmsg8239@gmail.com">katmsg8239@gmail.com</a>
+          <a class="github_btn" href="https://github.com/kr95656" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2026 RYO KAMIMURA</p>
+  </footer>
 </body>
 </html>
