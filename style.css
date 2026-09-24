@@ -557,15 +557,38 @@ a{
   letter-spacing:.04em;
 }
 
+.company_name{
+  margin-bottom:5px;
+  color:var(--muted);
+  font-size:13px;
+  font-weight:750;
+}
+
 .timeline_item h3{
   color:var(--navy);
   font-size:21px;
   margin-bottom:10px;
 }
 
-.timeline_item p:last-child{
+.timeline_item > p:not(.period):not(.company_name){
   color:var(--slate);
   font-size:15px;
+}
+
+.career_tags{
+  display:flex;
+  flex-wrap:wrap;
+  gap:8px;
+  margin-top:18px;
+}
+
+.career_tags span{
+  padding:6px 10px;
+  border-radius:999px;
+  background:#f1f5f9;
+  color:#334155;
+  font-size:11px;
+  font-weight:800;
 }
 
 .contact{
